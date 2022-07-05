@@ -1,0 +1,49 @@
+body {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #000;
+    background-color: #fff;  
+}
+#navbarbottom{
+  height: 50px;
+}
+
+#HomeSliderBanner {
+  height: 10%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+ .carousel-item img{
+  border-radius: 7px;
+ }
+
+ .nav-item span{
+  margin-top: 2px;
+  font-size: 10px;
+ }
+ .card {
+   padding-left: 0%;
+   padding-right: 0%;
+ }
+  .i-main .i-block{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    margin: 1px;
+    position: relative;
+    cursor: pointer;
+  }
+ 
+  .i-main .i-block a{
+    color:rgb(2, 1, 1);
+    text-decoration: none;
+  }
+
+  @media (max-width: 575.98px) { 
+    .i-main .small{
+      font-size: 14px;
+    }
+  }
+ 
